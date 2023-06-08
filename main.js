@@ -12,7 +12,7 @@ function setup(){
     document.getElementById("status").innerHTML="Status: Detecting";
 }
 
-function modelloaded(){
+function modelLoaded(){
     console.log("modelloaded");
     status=true;
     objectdetector.detector(img, gotResult);
